@@ -1,0 +1,6 @@
+@OfferService_HostAddress = http://localhost:5113
+
+GET {{OfferService_HostAddress}}/offer/
+Accept: application/json
+
+###
