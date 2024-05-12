@@ -11,7 +11,6 @@ COPY ["../Shared", "."]
 WORKDIR /src/HotelService
 COPY ["HotelService", "."]
 
-WORKDIR "/src/."
 RUN dotnet build "HotelService.csproj" -c Release -o /app/build
 
 FROM build AS publish

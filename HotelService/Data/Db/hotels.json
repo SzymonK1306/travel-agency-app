@@ -1,0 +1,39 @@
+
+[
+    {
+        "name": "MiRaBelle", 
+        "Country": "Bu\u0142garia", 
+        "city": "Z\u0142ote Piaski", 
+        "stars": 4, 
+        "description": "MiRaBelle to po\u0142o\u017cony na zalesionym wzg\u00f3rzu obiekt z nowocze\u015bnie zaaran\u017cowan\u0105 stref\u0105 basenow\u0105. W niedalekiej okolicy mie\u015bci si\u0119 s\u0142ynny aquapark Aquapolis (wst\u0119p za op\u0142at\u0105), co stanowi du\u017c\u0105 atrakcj\u0119 dla rodzin z dzie\u0107mi. Do d\u0142ugiej, piaszczystej pla\u017cy jest oko\u0142o 300 m, a w pobli\u017cu znajduj\u0105 si\u0119 liczne sklepy, restauracje i bary. Dzi\u0119ki dogodnej lokalizacji go\u015bcie mog\u0105 korzysta\u0107 z wielu miejscowych rozrywek. Smaczne dania serwowane przez hotelow\u0105 restauracj\u0119 i 2\u00a0zewn\u0119trzne baseny umil\u0105 wakacyjny czas.", 
+        "MealsType": "All-Inclusive", 
+        "photo": "https://r.cdn.redgalaxy.com/scale/o2/TUI/hotels/VAR21007/S20/13623855.jpg?dstw=1200&dsth=644.0795159896282&srcw=1157&srch=621&srcx=1%2F2&srcy=1%2F2&srcmode=3&type=1&quality=80", 
+        "Rooms": [
+            {
+                "name": "Studio", 
+                "Features": "sejf: za op\u0142at\u0105|TV kab.|sofa|w budynku g\u0142\u00f3wnym|minibar: za op\u0142at\u0105, napoje bezalkoholowe: za op\u0142at\u0105, woda: za op\u0142at\u0105, napoje alkoholowe: za op\u0142at\u0105, uzupe\u0142nianie minibaru: codziennie 09:00 - 16:30|serwis sprz\u0105taj\u0105cy: kilka razy w tygodniu 09:00 - 16:30, w cenie|suszarka do w\u0142os\u00f3w|WC|biurko|Wi-Fi: w cenie|telefon|balkon|ostatni cz\u0119\u015bciowy remont: 2019|wanna lub prysznic|klimatyzacja: w cenie|boczny widok na morze", 
+                "capacity": 2, 
+                "number_of_rooms": 45
+            }, 
+            {
+                "name": "Pok\u00f3j ekonomiczny", 
+                "Features": "Pokoje ekonomiczne to dobry wyb\u00f3r dla os\u00f3b, kt\u00f3rym zale\u017cy na pobycie w hotelu w najni\u017cszej mo\u017cliwej cenie. Pokoje mog\u0105 r\u00f3\u017cni\u0107 si\u0119 wielko\u015bci\u0105, lokalizacj\u0105 lub wyposa\u017ceniem od tych znajduj\u0105cych si\u0119 w regularnej ofercie danego obiektu. Z regu\u0142y nie ma mo\u017cliwo\u015bci wymiany pokoju ekonomicznego na inny.", 
+                "capacity": 2, 
+                "number_of_rooms": 45
+            }, 
+            {
+                "name": "Pok\u00f3j 2-osobowy", 
+                "Features": "sejf: za op\u0142at\u0105|TV kab.|minibar: za op\u0142at\u0105, napoje bezalkoholowe: za op\u0142at\u0105, woda: za op\u0142at\u0105, napoje alkoholowe: za op\u0142at\u0105, uzupe\u0142nianie minibaru: codziennie 09:00 - 16:30|serwis sprz\u0105taj\u0105cy: kilka razy w tygodniu 09:00 - 16:30, w cenie|suszarka do w\u0142os\u00f3w|WC|biurko|Wi-Fi: w cenie|telefon|prysznic|balkon|ostatni cz\u0119\u015bciowy remont: 2019|klimatyzacja: w cenie|widok boczny na morze", 
+                "capacity": 2, 
+                "number_of_rooms": 45
+            }, 
+            {
+                "name": "Pok\u00f3j 2-osobowy", 
+                "Features": "sejf: za op\u0142at\u0105|TV kab.|minibar: za op\u0142at\u0105, napoje bezalkoholowe: za op\u0142at\u0105, woda: za op\u0142at\u0105, napoje alkoholowe: za op\u0142at\u0105, uzupe\u0142nianie minibaru: codziennie 09:00 - 16:30|serwis sprz\u0105taj\u0105cy: kilka razy w tygodniu 09:00 - 16:30, w cenie|suszarka do w\u0142os\u00f3w|WC|biurko|Wi-Fi: w cenie|telefon|prysznic|balkon|ostatni cz\u0119\u015bciowy remont: 2019|klimatyzacja: w cenie|widok boczny na morze", 
+                "capacity": 3, 
+                "number_of_rooms": 45
+            }
+        ], 
+        "AirportName": "Warna (VAR)"
+    }
+]
