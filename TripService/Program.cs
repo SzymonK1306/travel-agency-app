@@ -4,7 +4,6 @@ using TripService.Data;
 using TripService.Consumers;
 using TripService.Saga;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
 string dbConn = builder.Configuration["DATABASE_CONNECTION_STRING"] ??
@@ -40,6 +39,11 @@ builder.Services.AddMassTransit(cfg =>
         context.UseMessageRetry(r => r.Interval(3, 1000));
         context.UseInMemoryOutbox();
     });
+    cfg.AddConsumer<GetAllPreferencesConsumer>(context =>
+    {
+        context.UseMessageRetry(r => r.Interval(3, 1000));
+        context.UseInMemoryOutbox();
+    });
     cfg.AddConsumer<ChangeRoomsAvailabilityStatusConsumer>(context =>
     {
         context.UseMessageRetry(r => r.Interval(3, 1000));
@@ -61,6 +65,11 @@ builder.Services.AddMassTransit(cfg =>
         context.UseInMemoryOutbox();
     });
     cfg.AddConsumer<CheckReservationStatusConsumer>(context =>
+    {
+        context.UseMessageRetry(r => r.Interval(3, 1000));
+        context.UseInMemoryOutbox();
+    });
+    cfg.AddConsumer<GenerateChangesConsumer>(context =>
     {
         context.UseMessageRetry(r => r.Interval(3, 1000));
         context.UseInMemoryOutbox();
